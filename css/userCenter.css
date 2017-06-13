@@ -1,0 +1,737 @@
+.main {
+	background-color: white;
+}
+
+.each {
+	padding: 20px 50px;
+}
+
+
+/*mycenter page*/
+
+div.owner_head {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+}
+
+div.owner_bg {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	z-index: 10;
+}
+
+div.owner_bg img {
+	width: 100%;
+	height: 300px;
+}
+
+div.owner_zhezhao {
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	height: 300px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+div.owner_zhezhao div.my_head_info {
+	width: 100%;
+	height: 300px;
+}
+
+div.my_head_info div.my_head_pic {
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	margin: 20px auto;
+}
+
+div.my_head_pic img {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	border: 3px solid #C0C0C0;
+}
+
+div.my_name_word {
+	font-family: "微软雅黑";
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+div.my_head_count_info {
+	text-align: center;
+	margin-top: 10px;
+}
+
+div.my_head_count_info span {
+	display: inline-block;
+	margin-right: 45px;
+	color: white;
+}
+
+div.owner_body {
+	position: relative;
+	margin: 20px 0 20px 0;
+	background-color: white;
+	box-shadow: 0 2px 3px 3px #ccc;
+}
+
+div.owner_body div.up_body {
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+
+div.up_body * {
+	display: inline-block;
+	list-style: none;
+}
+
+div.upp_body ul {
+	padding: 0;
+}
+
+div.up_body li {
+	margin: 0 5px 0 5px;
+	font-size: 20px;
+}
+
+div.owner_body div.down_body {
+	width: 100%;
+}
+
+
+/*personal infomation*/
+
+#setting {
+	display: none;
+}
+
+.myinfo table {
+	background: url(../img/bg.jpg) round;
+}
+
+.myinfo tr {
+	border-bottom: solid 1px #00BFFF;
+	border-left: solid 1px #00BFFF;
+}
+
+.myinfo {
+	width: 100%;
+	padding: 0 20px
+}
+
+.myinfo table {
+	width: 100%;
+	margin: 20px auto;
+	box-shadow: 0 2px 2px 2px #ccc;
+}
+
+.myinfo table tr td img {
+	border-radius: 50%;
+	margin-bottom: 20px;
+	top: 0;
+}
+
+.myinfo table tr td {
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+.myinfo textarea {
+	resize: vertical;
+	max-height: 400px;
+	color: white;
+	margin-left: 50px;
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+}
+
+.myinfo select {
+	color: #262626;
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+}
+
+.myinfo input {
+	height: 1.6em;
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+	border: none;
+	border-left: solid 1px #CCCCCC;
+	font-family: arial sans-serif "微软雅黑";
+	font-size: 18px;
+	margin: 10px 0 0 5px;
+}
+
+.myinfo .btn {
+	height: auto;
+	margin: 0 5px 5px 0;
+	color: white;
+	background-color: #00BFFF;
+}
+
+
+/*message*/
+
+#message {
+	display: none;
+}
+
+
+/*comment*/
+
+.comment,
+.user_reply {
+	position: relative;
+	width: auto;
+	margin: 0 auto;
+	padding: 10px 5px;
+}
+
+.ask_user_content,
+.user_reply {
+	list-style: none;
+}
+
+.ask_user_content li,
+.user_reply li {
+	padding-bottom: 12px;
+	margin-top: 30px;
+	border-bottom: 1px solid #e7e7e7;
+	list-style: none;
+	padding: 5px;
+	box-shadow: 0 2px 2px 2px #CCCCCC;
+}
+
+.ask_user_litit,
+.user_reply_litit {
+	position: relative;
+	padding-left: 45px;
+	min-height: 24px;
+}
+
+.ask_user_litit span,
+.user_reply_litit span {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 45px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	background-color: deepskyblue;
+}
+
+.ask_user_litit p,
+.user_reply_litit p {
+	background-color: #CCCCCC;
+	color: #808080;
+}
+
+.ask_user_content li h3,
+.who_reply h3,
+.my_words h3 {
+	margin-top: 10px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #4c4c4c;
+	font-weight: 400;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+.ask_user_content li h3 a,
+.who_reply h3 a,
+.my_words h3 a {
+	color: #4c4c4c;
+}
+
+.ask_user_trbs {
+	margin-top: 10px;
+	height: 16px;
+	line-height: 20px;
+	font-size: 12px;
+}
+
+.ask_user_trbs span {
+	float: right;
+	height: 16px;
+	color: #a0a0a0;
+}
+
+.ask_user_trbs span.dianzan {
+	cursor: pointer;
+	margin-left: 14px;
+	padding-left: 20px;
+	min-width: 12px;
+	line-height: 22px;
+	display: inline-block;
+	background: url(http://file.thepaper.cn/www/v3/img/news_zan16.png) no-repeat 0 0;
+}
+
+.who_reply {
+	border: solid 1px #ccc;
+}
+
+.who_reply .reply_head,
+.who_reply h3 {
+	display: inline-block;
+}
+
+.who_reply h3>div {
+	color: #101010;
+	background-color: #00BFFF;
+}
+
+.who_reply .my_words {
+	width: 70%;
+	background-color: #AFD9EE;
+	border: solid 1px #1B6D85;
+	margin-left: 80px;
+}
+
+.reply_head img {
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	margin: -40px 20px 0 10px;
+}
+
+
+/*聊天区*/
+/*
+.MSGBOX {
+	height: auto;
+}*/
+/*收藏*/
+
+#restore {
+	width: 100%;
+	display: none;
+}
+.singleStore {
+	transition: all 1s ease-in;
+	box-shadow: 2px 4px 4px 4px #ccc;
+	margin: 20px 0 0 0;
+	width: 33%;
+	height:100px;
+	display: inline-block;
+	overflow: hidden;
+	font-family: "微软雅黑";
+	background-color: white;
+}
+.singleStore:before {
+	transition: all 1s;
+	content: "LS";
+	width: 20px;
+	height: 30px;
+	background-color: #222222;
+	color: deepskyblue;
+	position: absolute;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.singleStore .panel-body {
+	height: 14em;
+	overflow: hidden;
+	color: #666666;
+}
+
+.singleStore:hover {
+	transition: all 1s ease-in-out;
+	
+	height: 20em;
+	border-bottom: red solid 3px;
+}
+
+.singleStore:hover:before {
+	content: "灵蛇";
+	background-color: red;
+	color: white;
+	transition: all 1s;
+	width: 38px;
+	height: 25px;
+	font-family: "arial, helvetica, sans-serif";
+}
+
+
+/*动态*/
+#activity{background-color: white;}
+.editor{height:auto;}
+/*.wrapMydynamic {
+	padding: 10px;
+}
+
+.Mydynamic {
+	padding: 10px;
+	width: auto;
+	border-bottom: dashed 2px #CCCCCC;
+	background-color: white;
+}
+
+.Mydynamic:hover {
+	border-left: solid 2px red;
+}
+
+.Mydynamic * {
+	display: inline-block;
+}
+
+.Mydynamic .img {
+	width: 86px;
+	height: 86px;
+	position: absolute;
+	border-radius: 100%;
+}
+
+.dynamic {
+	width:auto;
+	height: 200px;
+	overflow: hidden;
+	background-color: white;
+	box-shadow: 0 2px 2px 2px #C3C3C3;
+	position: relative;
+	margin-left: 12%;
+	padding: 5px;
+}*/
+/**********************wechat*******************************/
+.wechat-wrap {
+	box-shadow: 1px 2px 2px 2px #CCCCCC;
+	padding: 5px;
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.wechat-wrap .wechat-left {
+	padding: 20px 5px 0 5px;
+}
+
+.wechat-wrap .wechat-logo img {
+	border-bottom: solid 2px red;
+}
+
+.wechat-wrap .list-group {
+	margin-top: 60px;
+}
+
+.wechat-wrap .wechat-right {
+	min-height: 300px;
+	border-left: solid 2px red;
+	padding: 5px;
+}
+.wechat-right #MSGBOX{
+	position: relative;
+}
+@keyframes breatb{
+	0%{background-color: rgba(0,0,0,0.8);}
+	50%{background-color: rgba(0,50,250,1);}
+	100%{background-color: rgba(0, 0,0, 0.8);}
+}
+.wechat-wrap .header {
+	animation:breatb 4s linear infinite;
+	color: #FFFFFF;
+	border: 1px solid red;
+	height: 2em;
+	text-align: center;
+	font-size: 20px;
+}
+
+.wechat-wrap .wechatContent {
+	word-wrap: break-word;
+	width: 100%;
+	height: 380px;
+	overflow-y: scroll;
+	overflow-x: overlay;
+	background: url(../img/1.jpg) round;
+}
+
+.wechat-wrap .message {
+	width:100%;
+	height: 80px;
+	resize: none;
+	overflow-y: scroll;
+	overflow-wrap: normal;
+}
+.wechat-wrap .com_form{
+	width: auto;
+}
+
+/*emotion*/
+
+.wechat-wrap .comment {
+	width: 680px;
+	margin: 20px auto;
+	position: relative
+}
+
+.wechat-wrap .comment h3 {
+	height: 28px;
+	line-height: 28px
+}
+
+.wechat-wrap .com_form {
+	width: 100%;
+	position: relative
+}
+
+.wechat-wrap .input {
+	width: 99%;
+	height: 60px;
+	border: 1px solid #ccc
+}
+
+.wechat-wrap .com_form p {
+	height: 28px;
+	line-height: 28px;
+	position: relative
+}
+
+.wechat-wrap span.emotion {
+	display: inline-block;
+	width: 62px;
+	text-align: right;
+	height: 30px;
+	background: url(../img/face/icon.gif) no-repeat 2px 2px;
+	cursor: pointer;
+	color: #0066CC;
+}
+
+.wechat-wrap span.emotion:hover {
+	background-position: 2px -28px;
+}
+
+.wechat-wrap .qqFace {
+	margin-top: -190px;
+	background: #fff;
+	padding: 2px;
+	border: 1px #dfe6f6 solid;
+	left: -400px;
+}
+
+.wechat-wrap .qqFace table td {
+	padding: 0px;
+}
+
+.wechat-wrap .qqFace table td img {
+	cursor: pointer;
+	border: 1px #fff solid;
+}
+
+.wechat-wrap .qqFace table td img:hover {
+	border: 1px #0066cc solid;
+}
+
+.wechat-wrap .sub_btn {
+	position: relative;
+	display: inline-block;
+	zoom: 1;
+	/* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .6);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	color: #e8f0de;
+	border: solid 1px #538312;
+	background: #64991e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7db72f), to(#4e7d0e));
+	background: -moz-linear-gradient(top, #7db72f, #4e7d0e);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#7db72f', endColorstr='#4e7d0e');
+}
+
+.wechat-wrap .sub_btn:hover {
+	background: #538018;
+	background: -webkit-gradient(linear, left top, left bottom, from(#6b9d28), to(#436b0c));
+	background: -moz-linear-gradient(top, #6b9d28, #436b0c);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#6b9d28', endColorstr='#436b0c');
+}
+
+
+/*world btn*/
+
+.wechat-wrap #world:hover,
+#secretary:hover,
+#PM:hover {
+	cursor: pointer;
+}
+
+.wechat-wrap #secretaryBox,
+#PMBox {
+	display: none;
+}
+
+.wechat-wrap #world {
+	background-color: black;
+	color: deepskyblue;
+}
+
+
+/*talk*/
+
+.wechat-wrap .talk {
+	text-align: right;
+	padding: 10px;
+	position: relative;
+	border-radius: 5px;
+}
+
+.wechat-wrap .talk img.me {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	right: 20px;
+	border-radius: 90px;
+}
+
+.wechat-wrap .talk .mesay {
+	display: inline-block;
+	width: auto;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: deepskyblue;
+	text-align: left;
+	position: relative;
+	margin-right: 60px;
+}
+
+
+/*theytalk*/
+
+.wechat-wrap .theytalk {
+	text-align: left;
+	padding: 10px;
+	position: relative;
+	border-radius: 5px;
+}
+
+.wechat-wrap .theytalk img.me {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 20px;
+	border-radius: 90px;
+}
+
+.wechat-wrap .theytalk .mesay {
+	display: inline-block;
+	width: auto;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: deepskyblue;
+	text-align: left;
+	position: relative;
+	margin-left: 60px;
+}
+
+
+/*message common */
+
+.wechat-wrap .lineCommon {
+	margin: 30px;
+	width: auto;
+	border-radius:20px ;
+	box-shadow: 2px 2px 2px 4px #CCCCCC;
+}
+
+.wechat-wrap .lineCommon .img{
+	width: 70px;
+	height: 70px;
+}
+
+.wechat-wrap .lineCommon div {
+	background-color: #222222;
+	text-align: right;
+}
+
+.wechat-wrap .lineCommon div span {
+	display: inline-block;
+	color: deepskyblue;
+	margin-left: 30px;
+}
+
+/*字母滚动*/
+@-webkit-keyframes animatemove {
+	0%{
+		left: 0;
+	}50%{
+		left:57%;
+		border-left: solid 3px red;
+	}100%{
+		left: 0;
+		border-right: solid 3px red;
+	}
+	
+}
+
+@-moz-keyframes animatemove {
+	0%{
+		left: 0;border-right: solid 3px red;
+	}50%{
+		left:57%;
+		border-left: solid 3px red;
+	}100%{
+		left: 0;
+	}
+}
+
+@-ms-keyframes animatemove {
+	0%{
+		left: 0;border-right: solid 3px red;
+	}50%{
+		left:57%;border-left: solid 3px red;
+	}100%{
+		left: 0;
+	}	
+}
+
+@-o-keyframes animatemove {
+	0%{
+		left: 0;border-right: solid 3px red;
+	}50%{
+		left:57%;border-left: solid 3px red;
+	}100%{
+		left: 0;
+	}
+}
+
+@keyframes animatemove {
+	0%{
+		left: 0;border-right: solid 3px red;
+	}50%{
+		left:57%;border-left: solid 3px red;
+	}100%{
+		left: 0;
+	}
+}
+
+#MSGBOX .marquee {
+	position: relative;
+}
+
+#MSGBOX .marquee span {
+	position: absolute;
+	-webkit-animation: animatemove 4s linear infinite;
+	-moz-animation: animatemove 4s linear infinite;
+	-ms-animation: animatemove 4s linear infinite;
+	-o-animation: animatemove 4s linear infinite;
+	animation: animatemove 4s linear infinite;
+}
+
+/*secretaryPM*/
+.secretaryPM{width:80%;height: 90px;box-shadow: 2px 2px 2px 2px #CCCCCC;border: solid 1px #ccc;}

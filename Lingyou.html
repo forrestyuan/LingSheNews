@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/all.css" />
+		<link rel="stylesheet" href="css/lingyou.css" />
+		<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<!--页面顶部-->
+		<header class="header navbar-static-top">
+			<!--s:nav-->
+			<nav id="nav" class="nav navbar navbar-default">
+				<div class="container-fluid">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+			      	</button>
+					<!--s:logo-->
+					<a class="logo navbar-left"><img src="img/logo_100px.png" alt="logo" /></a>
+					<!--e:logo-->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul id="nav_list" class="nav navbar-nav">
+							<li id="bt_active"><a href="index.html">精选<span class="sr-only">(current)</span></a></li>
+							<li id="cont1"><a href="#">精选</a></li>
+							<li id="cont2"><a href="#">精选</a></li>
+							<li id="cont3"><a href="#">精选</a></li>
+							<li><a href="Lingyou.html">灵友</a></li>
+						</ul>
+						<ul id="nav_login" class="nav navbar-nav navbar-right">
+							<li><div class="search d6">
+								<form action="">
+								  <input type="text" placeholder="搜索从这里开始...(敲回车开始)">
+								  <button class="glyphicon glyphicon-search" type="submit"></button>
+								</form>
+								</div>
+							</li>
+							<li class="user_photo"><img  src="img/fighter2.png" alt="user_photo" /></li>
+							<li class="user">
+								<div class="dropdown">
+									<a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									 	Forrestyuan
+									    <span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+									    <li><a href="user.html">我的主页</a></li>
+									    <li><a href="#">退出</a></li>
+									</ul>
+								</div>
+							</li> 
+							
+							<li>
+								<a id="SLZ" href="javascript:void(0);">登录|注册</a>
+							</li>
+						</ul>
+					</div>
+					<!--s:登录区-->
+					<div class="zhezhaoceng">
+						<div class="login_wrap">
+							<div class="closeLog" align="right"><i id="closeLog" class="glyphicon glyphicon-remove-circle"></i></div>
+							<hr>
+							<div class="logo_wrap"><img src="img/logo_100px.png" /></div>
+							<div class="log_by_third">
+								<h4 align="center">——使用第三方登录——</h4>
+								<ul>
+									<li>
+										<a href="" class="icon3 icon3-qq"></a>
+									</li>
+									<li>
+										<a href="" class="icon3 icon3-weibo"></a>
+									</li>
+									<li>
+										<a href="" class="icon3 icon3-weixin"></a>
+									</li>
+									<li>
+										<a href="" class="icon3 icon3-tieba"></a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="log_by_linshe" id="user_login">
+								<h4 align="center">——使用灵蛇News账号登录——</h4>
+								<form action="" method="post">
+									<input type="text" name="username" id="username" placeholder="用户名/邮箱/手机号" />
+									<input type="password" name="password" id="password" placeholder="密码" />
+									<input type="text" name="validateCode" id="validataCode" placeholder="请输入图片中的验证码" />
+									<span><i><img id="validateImg" src="img/logo_100px.png" alt="验证码" /><a href="">换一张</a></i></span>
+									<input type="submit" value="登录" />
+								</form>
+								<div>
+									<p>没有账号？<a href="javascript:void(0);" id="GTR">注册!</a></p>
+								</div>
+							</div>
+
+							<div class="log_by_linshe" id="user_register">
+								<h4 align="center">——注册灵蛇News账号——</h4>
+								<form action="" method="post">
+									<input type="text" name="username" id="username" placeholder="用户名/邮箱/手机号" />
+									<input type="password" name="password" id="password" placeholder="密码" />
+									<input type="password" name="password2" id="password2" placeholder="确认密码" />
+									<input type="tel" name="phone" id="phone" placeholder="输入短信验证码" /><span id="phoneSend"><a href="">发送短信验证码</a></span>
+									<input type="email" name="email" id="email" placeholder="输入您的邮箱" />
+									<input type="submit" value="注册" />
+								</form>
+								<div>
+									<p>已有账号？<a href="javascript:void(0);" id="BTL">登录</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--e:登录区-->
+				</div>
+				
+			</nav>
+					<!--二级分类区-->
+		<div class="subType">
+			<ul id="cont1">
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+			</ul>
+			<ul id="cont2">
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+			</ul>
+			<ul id="cont3">
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+			</ul>
+		</div>	
+			<!--e:nav-->
+		</header>
+						
+		<!--s:总体内容区-->
+		<div id="wrap_all" class="wrap_all">
+			<div>
+				<ul>
+					<li>asdf</li>
+					<li>adf</li>
+					<li>adsf</li>
+					<li>asdf</li>
+					<li>adf</li>
+				</ul>
+			</div>
+			<div class="bottom_wrap">
+				<div class="lingyouL">
+					<figure>
+						<img src="img/bg.jpg">
+						<figcaption>
+							<div class="fig-inner text-center">
+								<div class="username text-center"><a class="btn-default" href="">ForrestYuan（灵友）</a></div>
+						   		 <p class="h4">（自我介绍） 打飞字(Z-Type)这是有史以来最酷的一款练习盲打的游戏。视觉效果、射击爆破效果和声音
+						    	效果都非常的刺激。这款游戏是用HTML5做成的，曾经获得Mozilla Game On游戏大赛的
+								</p>
+							</div>
+						</figcaption>
+						<div class="fig-bottom">
+							<span><img src="img/head.jpg" alt="head" /></span>
+							<span><a href="">forrest</a></span>
+							<span>2016/10/20</span>
+						</div>
+					</figure>
+					<figure>
+						<img src="img/bg.jpg">
+						<figcaption>
+							<div class="fig-inner text-center">
+								<div class="username text-center"><a class="btn-default" href="">ForrestYuan（灵友）</a></div>
+						   		 <p class="h4">（自我介绍） 打飞字(Z-Type)这是有史以来最酷的一款练习盲打的游戏。视觉效果、射击爆破效果和声音
+						    	效果都非常的刺激。这款游戏是用HTML5做成的，曾经获得Mozilla Game On游戏大赛的
+								</p>
+							</div>
+						</figcaption>
+						<div class="fig-bottom">
+							<span><img src="img/head.jpg" alt="head" /></span>
+							<span><a href="">forrest</a></span>
+							<span>2016/10/20</span>
+						</div>
+					</figure>
+					<figure>
+						<img src="img/bg.jpg">
+						<figcaption>
+							<div class="fig-inner text-center">
+								<div class="username text-center"><a class="btn-default" href="">ForrestYuan（灵友）</a></div>
+						   		 <p class="h4">（自我介绍） 打飞字(Z-Type)这是有史以来最酷的一款练习盲打的游戏。视觉效果、射击爆破效果和声音
+						    	效果都非常的刺激。这款游戏是用HTML5做成的，曾经获得Mozilla Game On游戏大赛的
+								</p>
+							</div>
+						</figcaption>
+						<div class="fig-bottom">
+							<span><img src="img/head.jpg" alt="head" /></span>
+							<span><a href="">forrest</a></span>
+							<span>2016/10/20</span>
+						</div>
+					</figure>
+					<div id="load">更多灵友</div>
+				</div>
+				<div class="lingyouR">
+					
+				</div>
+				
+			</div>
+			
+		</div>
+			<!--e：总体内容区 -->
+			<!---------s:脚部------------->
+			<footer>
+				<div id="gotop" onclick="flytotop();" class="totop"><a href="#"><img src="img/fighter2.png"></a></div>
+				<div align="center" class="footer-wrap">
+					<div>
+						<!--兴趣关注-->
+						<h4>欢迎关注：</h4>
+						<ul>
+							<li><a href="#"><i class="icon3 icon3-weibo"></i>官方微博</a></li>
+							<li><a href=""><i class="icon3 icon3-weixin"></i>官方微信</a></li>
+							<li><a href=""><i class="icon3 icon3-qq"></i>客服QQ</a></li>
+							<li><a href=""><i class="icon3 icon3-contact"></i>联系我们</a></li>
+							<li><a href=""><i class="icon3 icon3-tieba"></i>贴吧</a></li>
+							<li><a href=""><i class="icon3 icon3-xingqu"></i>兴趣部落</a></li>
+						</ul>
+					</div>
+					<div>
+						<!--简介-->
+						<p>
+							灵蛇News，读你想读，给你精彩。于大千世界中，阅一事，悟吾身，于混沌中找到自我，释放自我，享受自我.<br> 好的新闻，还原给你生活中方方面面的真相，传递给你以最诲人的新思想。这一切都在这里，这里是灵蛇News。
+						</p>
+					</div>
+					<div>
+						<!--版权声明-->
+						<ul>
+							<li><a href="about.html">关于我们</a>&nbsp;|</li>
+							<li><a href="">招贤纳士</a>&nbsp;|</li>
+							<li><a href="">版权声明</a>&nbsp;|</li>
+							<li><a href="">使用协议</a>&nbsp;|</li>
+							<li><a href="">公司新闻</a>&nbsp;|</li>
+							<li><a href="">举报中心</a></li>
+						</ul>
+						<p> Copyright ©2016 www.wangke.com lnc.ALL Rights Reserved</p>
+						<P><b style="color:dodgerblue;font-weight: 600;">深圳网客科技有限公司</b>版权所有 -14240018-POWER BY YuanFuCong</p>
+					</div>
+				</div>
+			</footer>
+			<!---------e:脚部------------->
+			<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/all.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

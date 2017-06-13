@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/all.css" />
+		<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<!--页面顶部-->
+		<header class="header navbar-static-top">
+			<!--s:nav-->
+			<nav id="nav" class="nav navbar navbar-default">
+				<div class="container-fluid">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+			      	</button>
+					<!--s:logo-->
+					<a class="logo navbar-left"><img src="img/logo_100px.png" alt="logo" /></a>
+					<!--e:logo-->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul id="nav_list" class="nav navbar-nav">
+							<li id="bt_active"><a href="javscript:void(0)">精选<span class="sr-only">(current)</span></a></li>
+							<li id="cont1"><a href="#">精选</a></li>
+							<li id="cont2"><a href="#">精选</a></li>
+							<li id="cont3"><a href="#">精选</a></li>
+							<li><a href="Lingyou.html">灵友</a></li>
+						</ul>
+						<ul id="nav_login" class="nav navbar-nav navbar-right">
+							<li><div class="search d6">
+								<form action="">
+								  <input type="text" placeholder="搜索从这里开始...(敲回车开始)">
+								  <button class="glyphicon glyphicon-search" type="submit"></button>
+								</form>
+								</div>
+							</li>
+							<li class="user_photo"><img  src="img/fighter2.png" alt="user_photo" /></li>
+							<li class="user">
+								<div class="dropdown">
+									<a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									 	Forrestyuan
+									    <span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+									    <li><a href="user.html">我的主页</a></li>
+									    <li><a href="#">退出</a></li>
+									</ul>
+								</div>
+							</li> 
+							
+							<li>
+								<a id="SLZ" href="javascript:void(0);">登录|注册</a>
+							</li>
+						</ul>
+					</div>
+					<!--s:登录区-->
+					<div class="zhezhaoceng">
+						<div class="login_wrap">
+							<div class="closeLog" align="right"><i id="closeLog" class="glyphicon glyphicon-remove-circle"></i></div>
+							<hr>
+							<div class="logo_wrap"><img src="img/logo_100px.png" /></div>
+							<div class="log_by_third">
+								<h4 align="center">——使用第三方登录——</h4>
+								<ul>
+									<li>
+										<a href="" class="icon3 icon3-qq"></a>
+									</li>
+									<li>
+										<a href="" class="icon3 icon3-weibo"></a>
+									</li>
+									<li>
+										<a href="" class="icon3 icon3-weixin"></a>
+									</li>
+									<li>
+										<a href="" class="icon3 icon3-tieba"></a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="log_by_linshe" id="user_login">
+								<h4 align="center">——使用灵蛇News账号登录——</h4>
+								<form action="" method="post">
+									<input type="text" name="username" id="username" placeholder="用户名/邮箱/手机号" />
+									<input type="password" name="password" id="password" placeholder="密码" />
+									<input type="text" name="validateCode" id="validataCode" placeholder="请输入图片中的验证码" />
+									<span><i><img id="validateImg" src="img/logo_100px.png" alt="验证码" /><a href="">换一张</a></i></span>
+									<input type="submit" value="登录" />
+								</form>
+								<div>
+									<p>没有账号？<a href="javascript:void(0);" id="GTR">注册!</a></p>
+								</div>
+							</div>
+
+							<div class="log_by_linshe" id="user_register">
+								<h4 align="center">——注册灵蛇News账号——</h4>
+								<form action="" method="post">
+									<input type="text" name="username" id="username" placeholder="用户名/邮箱/手机号" />
+									<input type="password" name="password" id="password" placeholder="密码" />
+									<input type="password" name="password2" id="password2" placeholder="确认密码" />
+									<input type="tel" name="phone" id="phone" placeholder="输入短信验证码" /><span id="phoneSend"><a href="">发送短信验证码</a></span>
+									<input type="email" name="email" id="email" placeholder="输入您的邮箱" />
+									<input type="submit" value="注册" />
+								</form>
+								<div>
+									<p>已有账号？<a href="javascript:void(0);" id="BTL">登录</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--e:登录区-->
+				</div>
+				
+			</nav>
+					<!--二级分类区-->
+		<div class="subType">
+			<ul id="cont1">
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+			</ul>
+			<ul id="cont2">
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+			</ul>
+			<ul id="cont3">
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+			</ul>
+		</div>	
+			<!--e:nav-->
+		</header>
+						
+		<!--s:总体内容区-->
+		<div id="wrap_all" class="wrap_all">
+			<div class="top_wrap">
+				<section class="top_left"><!--s:content-->
+					<div class="top_img"><!--s:image-->
+						<a href="detail.html" class="tiptitleImg"  target="_blank"><img src="img/imgTest/56.jpg"从严治党跟老百姓没关系？请看看这些变化"></a>
+						<!--s:description-->
+						<div id="shortcut" class="shortcut">
+							<div class="top_desc">
+								<h3><a href="detail.html" id="" target="_blank">从严治党跟老百姓没关系？请看看这些变化</a></h3>
+								<p>十八届六中全会正在召开，继续聚焦全面从严治党重大问题。然而，有些人却对此不以为然，觉得这些都离自己太遥远，从严治党是党员干部的事，不关老百姓的事。</p>
+							</div>
+							<div class="top_property">
+								<a href="" target="_blank"><i class="glyphicon glyphicon-tag"></i>中国政库</a>
+								<span><i class="glyphicon glyphicon-eye-open"></i>200</span>
+								<span><i class="glyphicon glyphicon-heart"></i>200</span>
+								<span><i class="glyphicon glyphicon-comment"></i>128</span>
+								<span><i class="glyphicon glyphicon-edit"></i>2016-10-26</span>
+								<div class="tag">专题</div>
+							</div>
+						</div><!--e:description-->
+					</div><!--e:image-->
+				</section><!--e:content-->
+				<section class="top_right">
+					<div class="hot_title">热搜新闻词</div>
+					<div class="hot_words">
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							     	<div class="tab_words">
+										<ul>
+											<li><span>SSH</span></li>
+											<li><span>JAVA</span></li>
+											<li><span>打虎记</span></li>
+											<li><span>珠海航展</span></li>
+											<li><span>蓝桥杯</span></li>
+											<li><span>javascript</span></li>
+										</ul>
+									</div>
+							    </div>
+							 	<div class="item">
+							 		<div class="tab_words">
+										<ul>
+											<li><span>SSH</span></li>
+											<li><span>SSH</span></li>
+											<li><span>SSH</span></li>
+											<li><span>SSH</span></li>
+											<li><span>SSH</span></li>
+											<li><span>SSH</span></li>
+										</ul>
+									</div>
+							    </div>
+							    <div class="item">
+							 		<div class="tab_words">
+										<ul>
+											<li><span>SSH</span></li>
+											<li><span>SSH</span></li>
+											<li><span>SSH</span></li>
+											<li><span>SSH</span></li>
+											<li><span>SSH</span></li>
+											<li><span>SSH</span></li>
+										</ul>
+									</div>
+							    </div>
+							</div>
+							  <!-- Controls -->
+							<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left"></span>
+							    <span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right"></span>
+							    <span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="bottom_wrap">
+				<!--切换样式按钮-->
+				<div class="changeStyle">
+					<span id="styleToggle2" >列表</span>
+					<span id="styleToggle1" >卡片</span>
+				</div>
+				<!--s:LeftZone-->
+				<div class="bottom_left">
+						<div  id="sec" class="water_wrap clearfix">
+							<section class="content2">
+								<div class="img_wrap">
+									<a href="detail.html" target="_blank"><img src="img/imgTest/63.jpg" alt="flower" /></a>
+								</div>
+								<div class="shortcut">
+									<div>
+										<h4><a href="detail.html" target="_blank">从严治党跟老百姓没关系？请看看这些变化</a></h4>
+										<p>十八届六中全会正在召开，继续聚焦全面从严治党重大问题。然而，有些人却对此不以为然，觉得这些都离自己太遥远，从严治党是党员干部的事，不关老百姓的事.</p>
+									</div>
+									<div class="property">
+										<a href="#" target="_blank"><i class="glyphicon glyphicon-tag"></i>中国政库</a>
+										<span><i class="glyphicon glyphicon-eye-open"></i>200</span>
+										<span><i class="glyphicon glyphicon-comment"></i>128</span>
+										<span><i class="glyphicon glyphicon-edit"></i>2016-10-26</span>
+										<div class="tag">专题</div>
+									</div>
+								</div>
+							</section>
+						</div>
+						<div id="load">加载更多</div>
+					</div>
+				</div><!--e:LeftZone-->
+				<!--s:RightZone-->
+				<div class="bottom_right">
+					<div>
+						<div class="hot_title">热新闻</div>
+						<section class="hot_news">
+							<!-- Nav tabs -->
+							<ul class="nav nav-tabs" role="tablist">
+							  <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+							  <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+							  <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">Messages</a></li>
+							</ul>
+							<!-- Tab panes -->
+							<div class="tab-content">
+							  <div role="tabpanel" class="tab-pane active" id="home">..hiler.</div>
+							  <div role="tabpanel" class="tab-pane" id="profile">...asdf</div>
+							  <div role="tabpanel" class="tab-pane" id="messages">.asdf3rs..</div>
+							  <div role="tabpanel" class="tab-pane" id="settings">..dfassdfasdf.</div>
+							</div>
+						</section>
+					</div>
+					<div>
+						<div class="hot_title">热话题</div>	
+						<section class="hot_topic">
+						
+						</section>
+					</div>
+					<div>
+						<div class="hot_title">热评论</div>
+						<section class="hot_comment">
+							
+							
+						</section>
+					</div>
+					<div>
+						<div class="hot_title">灵友最新动态</div>
+						<section class="friend">
+							
+						</section>
+					</div>
+				</div><!--e:RightZone-->
+		</div>
+			<!--e：总体内容区 -->
+			<!---------s:脚部------------->
+			<footer>
+				<div id="gotop" onclick="flytotop();" class="totop"><a href="#"><img src="img/fighter2.png"></a></div>
+				<div align="center" class="footer-wrap">
+					<div>
+						<!--兴趣关注-->
+						<h4>欢迎关注：</h4>
+						<ul>
+							<li><a href="#"><i class="icon3 icon3-weibo"></i>官方微博</a></li>
+							<li><a href=""><i class="icon3 icon3-weixin"></i>官方微信</a></li>
+							<li><a href=""><i class="icon3 icon3-qq"></i>客服QQ</a></li>
+							<li><a href=""><i class="icon3 icon3-contact"></i>联系我们</a></li>
+							<li><a href=""><i class="icon3 icon3-tieba"></i>贴吧</a></li>
+							<li><a href=""><i class="icon3 icon3-xingqu"></i>兴趣部落</a></li>
+						</ul>
+					</div>
+					<div>
+						<!--简介-->
+						<p>
+							灵蛇News，读你想读，给你精彩。于大千世界中，阅一事，悟吾身，于混沌中找到自我，释放自我，享受自我.<br> 好的新闻，还原给你生活中方方面面的真相，传递给你以最诲人的新思想。这一切都在这里，这里是灵蛇News。
+						</p>
+					</div>
+					<div>
+						<!--版权声明-->
+						<ul>
+							<li><a href="about.html">关于我们</a>&nbsp;|</li>
+							<li><a href="">招贤纳士</a>&nbsp;|</li>
+							<li><a href="">版权声明</a>&nbsp;|</li>
+							<li><a href="">使用协议</a>&nbsp;|</li>
+							<li><a href="">公司新闻</a>&nbsp;|</li>
+							<li><a href="">举报中心</a></li>
+						</ul>
+						<p> Copyright ©2016 www.wangke.com lnc.ALL Rights Reserved</p>
+						<P><b style="color:dodgerblue;font-weight: 600;">深圳网客科技有限公司</b>版权所有 -14240018-POWER BY YuanFuCong</p>
+					</div>
+				</div>
+			</footer>
+			<!---------e:脚部------------->
+			<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/all.js" type="text/javascript" charset="utf-8"></script>
+			<script type="text/javascript" src="js/grid.js" ></script>
+	</body>
+
+</html>

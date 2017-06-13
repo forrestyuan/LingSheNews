@@ -1,0 +1,183 @@
+div.bottom_left {
+	padding: 20px 110px 50px 130px;
+}
+
+.property * {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #999999;
+}
+
+.breadcrumb a {
+	font-size: 16px;
+	line-height: 20px;
+	font-family: "微软雅黑";
+}
+
+
+/*.img-top{margin-bottom: 20px;}*/
+
+
+/*新闻文章信息*/
+
+.news_title {
+	line-height: 44px;
+	margin: 28px 0 34px;
+	color: #333333;
+	font-size: 32px;
+	font-weight: normal;
+}
+
+.news_about {
+	position: relative;
+	margin-bottom: 36px;
+	height: 48px;
+	border-top: 1px solid #dfdfdf;
+}
+
+.news_about span {
+	line-height: 24px;
+	color: #8e8e8e;
+	font-size: 14px;
+}
+
+.news_txt {
+	line-height: 30px;
+	color: #333333;
+	font-size: 16px !important;
+	margin-bottom: 46px;
+	letter-spacing: 0.5px;
+}
+
+.news_txt * {
+	font-size: 16px !important;
+}
+
+
+/*编辑者*/
+
+.news_editor {
+	line-height: 20px;
+	color: #8e8e8e;
+	font-size: 14px;
+}
+
+.news_editor span {
+	min-width: 340px;
+	float: right;
+	display: inline-block;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: right;
+}
+
+
+/*新闻关键词*/
+
+.news_keyword {
+	line-height: 25px;
+	color: #8e8e8e;
+	font-size: 14px;
+	margin-top: 12px;
+	text-indent: 4px;
+	border-top: 1px solid #dfdfdf;
+	padding-top: 3px;
+}
+
+
+/*点赞等收藏*/
+
+.news_love {
+	margin: 50px auto;
+	height: 36px;
+}
+
+
+/*评论*/
+
+.news_tit3 {
+	margin: 40px 0 20px;
+	border-bottom: 1px solid #b9b9b9;
+	height: 28px;
+}
+
+.news_tit3 a {
+	text-decoration: none;
+	padding: 4px 0;
+	line-height: 26px;
+	font-size: 15px;
+	color: #222;
+	border-bottom: 2px solid #ff8104;
+	margin-right: 20px;
+}
+
+
+/*share分享*/
+
+.newsct_share {
+	width: 34px;
+	position: fixed;
+	bottom: 108px;
+	left: 50% !important;
+	margin-left: -548px;
+	z-index: 999;
+}
+
+.news_love .nbgbox {
+	width: 218px;
+	height: 30px;
+	padding-top: 8px;
+	display: inline-block;
+	background-color: #f0f0f0;
+	margin-right: 5px;
+	float: left;
+	text-align: center;
+}
+
+.news_love a {
+	height: 16px;
+	line-height: 15px;
+	font-size: 14px;
+	color: #8e8e8e;
+	/* margin-left: 80px; */
+	padding: 0px 0 0px 28px;
+	display: inline-block;
+	/* float: left; */
+	overflow: hidden;
+	max-width: 175px;
+}
+
+.news_love a.zan {
+	background: url(http://file.thepaper.cn/www/v3/img/news_zan16.png) no-repeat 0 -1px;
+	/* margin-left: 85px; */
+}
+
+.news_love a.shoucang {
+	background: url(http://file.thepaper.cn/www/v3/img/news_fav16.png) no-repeat 0 2px;
+}
+
+.newsct_share a {
+	width: 34px;
+	height: 34px;
+	margin-bottom: 6px;
+	display: block;
+	float: left;
+	background: url(http://file.thepaper.cn/www/v3/img/share_bg34.png) no-repeat;
+	outline: 0;
+}
+
+.ctshare_sina {
+	background-position: 0 1px !important;
+}
+
+.ctshare_zone {
+	background-position: 0 -39px !important;
+}
+
+.ctshare_tx {
+	background-position: 0 -79px !important;
+}
+
+.ctshare_rr {
+	background-position: 0 -119px !important;
+}

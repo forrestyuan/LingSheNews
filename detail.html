@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/all.css" />
+		<link rel="stylesheet" type="text/css" href="css/detail.css"/>
+		<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+				<!--页面顶部-->
+		<header class="header navbar-static-top">
+			<!--s:nav-->
+			<nav id="nav" class="nav navbar navbar-default">
+				<div class="container-fluid">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+			      	</button>
+					<!--s:logo-->
+					<a class="logo navbar-left"><img src="img/logo_100px.png" alt="logo" /></a>
+					<!--e:logo-->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul id="nav_list" class="nav navbar-nav">
+							<li id="bt_active"><a href="index.html">精选<span class="sr-only">(current)</span></a></li>
+							<li id="cont1"><a href="#">精选</a></li>
+							<li id="cont2"><a href="#">精选</a></li>
+							<li id="cont3"><a href="#">精选</a></li>
+							<li><a href="Lingyou.html">灵友</a></li>
+						</ul>
+						<ul id="nav_login" class="nav navbar-nav navbar-right">
+							<li><div class="search d6">
+								<form action="">
+								  <input type="text" placeholder="搜索从这里开始...(敲回车开始)">
+								  <button class="glyphicon glyphicon-search" type="submit"></button>
+								</form>
+								</div>
+							</li>
+							<li class="user_photo"><img  src="img/fighter2.png" alt="user_photo" /></li>
+							<li class="user">
+								<div class="dropdown">
+									<a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									 	Forrestyuan
+									    <span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+									    <li><a href="user.html">我的主页</a></li>
+									    <li><a href="#">退出</a></li>
+									</ul>
+								</div>
+							</li> 
+							
+							<li>
+								<a id="SLZ" href="javascript:void(0);">登录|注册</a>
+							</li>
+						</ul>
+					</div>
+					<!--s:登录区-->
+					<div class="zhezhaoceng">
+						<div class="login_wrap">
+							<div class="closeLog" align="right"><i id="closeLog" class="glyphicon glyphicon-remove-circle"></i></div>
+							<hr>
+							<div class="logo_wrap"><img src="img/logo_100px.png" /></div>
+							<div class="log_by_third">
+								<h4 align="center">——使用第三方登录——</h4>
+								<ul>
+									<li>
+										<a href="" class="icon3 icon3-qq"></a>
+									</li>
+									<li>
+										<a href="" class="icon3 icon3-weibo"></a>
+									</li>
+									<li>
+										<a href="" class="icon3 icon3-weixin"></a>
+									</li>
+									<li>
+										<a href="" class="icon3 icon3-tieba"></a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="log_by_linshe" id="user_login">
+								<h4 align="center">——使用灵蛇News账号登录——</h4>
+								<form action="" method="post">
+									<input type="text" name="username" id="username" placeholder="用户名/邮箱/手机号" />
+									<input type="password" name="password" id="password" placeholder="密码" />
+									<input type="text" name="validateCode" id="validataCode" placeholder="请输入图片中的验证码" />
+									<span><i><img id="validateImg" src="img/logo_100px.png" alt="验证码" /><a href="">换一张</a></i></span>
+									<input type="submit" value="登录" />
+								</form>
+								<div>
+									<p>没有账号？<a href="javascript:void(0);" id="GTR">注册!</a></p>
+								</div>
+							</div>
+
+							<div class="log_by_linshe" id="user_register">
+								<h4 align="center">——注册灵蛇News账号——</h4>
+								<form action="" method="post">
+									<input type="text" name="username" id="username" placeholder="用户名/邮箱/手机号" />
+									<input type="password" name="password" id="password" placeholder="密码" />
+									<input type="password" name="password2" id="password2" placeholder="确认密码" />
+									<input type="tel" name="phone" id="phone" placeholder="输入短信验证码" /><span id="phoneSend"><a href="">发送短信验证码</a></span>
+									<input type="email" name="email" id="email" placeholder="输入您的邮箱" />
+									<input type="submit" value="注册" />
+								</form>
+								<div>
+									<p>已有账号？<a href="javascript:void(0);" id="BTL">登录</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--e:登录区-->
+				</div>
+				
+			</nav>
+					<!--二级分类区-->
+		<div class="subType">
+			<ul id="cont1">
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+				<li>中国新闻</li>
+			</ul>
+			<ul id="cont2">
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+				<li>国际新闻</li>
+			</ul>
+			<ul id="cont3">
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+				<li>深职校广播</li>
+			</ul>
+		</div>	
+			<!--e:nav-->
+		</header>
+		<!--s:总体内容区-->
+		<div id="wrap_all" class="wrap_all">
+			<div class="bottom_wrap">
+				<!--s:LeftZone-->
+				<div class="bottom_left ">
+					<div>
+						<ol class="breadcrumb">
+						  <li><a href="#">首页</a></li>
+						  <li><a href="#" class="active">中国证库</a></li>
+						</ol>
+					</div>
+					<article class="article">
+						<div>
+							<h1 class="news_title">中共十八届六中全会，外媒都关注什么？</h1>
+						</div>
+						<div class="news_about">
+								<span>发布时间：2016-10-26 12:50</span>
+								<span>来源：灵蛇News</span>
+							</div>
+						<div class="news_txt">
+														中国共产党十八届六中全会于27日在北京闭幕。这次全会是中共十九大之前党的一次重要会议，因而受到中外各界的广泛关注。此次六中会议聚焦从严治党问题，审议通过了两个重要文件－－《关于新形势下党内政治生活的若干准则》《中国共产党党内监督条例》。
+							海外媒体对这次全会非常关注，尤其聚焦党的建设、反腐败等热点问题，外媒报道认为中共十八届六中全会聚焦从严治党问题，体现了党的反腐的决心。日本《每日新闻》10月26日报道，中共十八届六中全会自24日起召开，会议力图肃正纲纪。习近平总书记推进反腐运动，这次会议将再次加深人们对中共中央彻底反腐的印象。
+							对于十八大以来中国反腐败工作的成绩，外媒也进行了大量报道。德国《每日镜报》网站10月26日报道称，中共十八届六中全会的正式议题涉及中国党和国家领导人习近平推行的反腐运动，这一场反腐运动是成功的。根据官方数据，4年内已经有超过100万名官员和党员受到惩处。现在，干部们几乎没有人还敢去参加豪华宴会。
+							外媒也注意到民间舆论的反应，报道认为中国共产党“铁腕反腐”的做法得到了民众的广泛支持。美国《华尔街日报》网站10月26日报道，中国国家主席习近平本周希望用更严格的纪律规定使其标志性的反腐运动制度化。自2013年以来，有100多万名党员在反腐运动中受到惩处。习近平要求加强对政治权力的约束，创造一个“制度笼子”，确保党员干部“不敢腐、不能腐、不想腐”。据维也纳大学中国法制史客座教授李凌（音）说，在本周的政策会议上，共产党领导层可能给纪检机构部署更多预防任务，以阻止贪污并对范围更广的违纪行为进行监督。习近平的反腐运动仍然受到欢迎。美国皮尤研究中心今年的一项调查结果发现，83%的中国受访者认为腐败是个问题——在所讨论的问题中占比最高，近2/3的受访者认为在今后5年情况会有改善。
+							对于反腐对中国的影响，新加坡国立大学李光耀公共政策学院访问教授毕斯和该校高级研究员托塔哈达联合在日本《外交学者》网站撰文说，习近平将反腐作为改善国家治理的一大支柱，反腐行动不断加码，做到“苍蝇老虎”一起打。有史以来第一次，像周永康、徐才厚、令计划和苏荣这样高级别的高官都因贪腐下马。中国人和来到中国的外国人早已认识到，腐败不再得到容忍。反腐让习近平在国内受到巨大欢迎，在国外也得到认可。
+							“本月早些时候，原中共云南省委书记白恩培因受贿约合3800万美元被判死缓，成为中共打虎长名单中的最新一人。”美国《基督教科学箴言报》在举了这个例子后说，这起案子不过是习近平发起的“标志性反腐工作”的一个注脚。显然，中国领导人还要进一步加强党纪，继续严打贪腐。这一场反腐败运动也被视为关系到中共生死存亡的一场斗争。美国波士顿大学中国问题专家傅士卓说：“习近平过去4年来一直在努力推动中共恢复他心目中应该有的样子，一个有理想和信仰的纪律严明的政党。”
+							外媒对于中国反腐工作的高度关注和充分报道，显示出中国共产党勇于对自身毒瘤“下刀”，以反腐推动中国改革开放各项事业的整体推进的做法，正在引起全世界的关注与称许。（本文原题为《中共六中全会，外媒都关注什么？》）
+						</div>
+					</article>
+					<div class="news_editor">责任编辑：周子静 <span>新闻报料：4009-20-4009   澎湃新闻，未经授权不得转载</span> </div>
+					<div class="news_keyword">关键词 &gt;&gt; 十八届六中全会</div>
+					<div class="news_love">
+                		<input id="hidden_contid" type="hidden" value="1551561" />
+                		<div class="nbgbox"><a href="javascript:voteCont();" id="zan" class="zan">11</a></div>
+                		<div class="nbgbox"><a href="javascript:favoriteCont2(false);" id="shoucang" class="shoucang">收藏</a></div>
+                    </div>
+                    <div class="news_tit3">
+			           &nbsp;
+			            <a href="javascript:;" id="comm_span">评论<span>（6）</span></a>
+			        </div>
+					 <div class="newsct_share">
+			            <a class="ctshare_sina" href="javascript:showToSina('1551561','中共十八届六中全会，外媒都关注什么？','http://image.thepaper.cn/image/5/238/794.jpg','http://www.thepaper.cn');"></a>
+			            <a class="ctshare_zone" href="javascript:showToZone('1551561','中共十八届六中全会，外媒都关注什么？','http://image.thepaper.cn/image/5/238/794.jpg','http://www.thepaper.cn','中国共产党十八届六中全会于27日在北京闭幕。这次全会是中共十九大之前党的一次重要会议，海外媒体对这次全会非常关注，尤其聚焦党的建设、反腐败等热点问题。');"></a>
+			            <a class="ctshare_tx" href="javascript:showToTencent('1551561','中共十八届六中全会，外媒都关注什么？','http://image.thepaper.cn/image/5/238/794.jpg','http://www.thepaper.cn');"></a>
+			            <a class="ctshare_rr" href="javascript:showTodouban('1551561','中共十八届六中全会，外媒都关注什么？','http://image.thepaper.cn/image/5/238/794.jpg','http://www.thepaper.cn','中国共产党十八届六中全会于27日在北京闭幕。这次全会是中共十九大之前党的一次重要会议，海外媒体对这次全会非常关注，尤其聚焦党的建设、反腐败等热点问题。');"></a>
+			        </div>
+			        
+				</div><!--e:LeftZone-->
+				<!--s:RightZone-->
+				<div class="bottom_right">
+					<div>
+						<div class="hot_title">热新闻</div>
+						<section class="hot_news">
+							<!-- Nav tabs -->
+							<ul class="nav nav-tabs" role="tablist">
+							  <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+							  <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+							  <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">Messages</a></li>
+							</ul>
+							<!-- Tab panes -->
+							<div class="tab-content">
+							  <div role="tabpanel" class="tab-pane active" id="home">..hiler.</div>
+							  <div role="tabpanel" class="tab-pane" id="profile">...asdf</div>
+							  <div role="tabpanel" class="tab-pane" id="messages">.asdf3rs..</div>
+							  <div role="tabpanel" class="tab-pane" id="settings">..dfassdfasdf.</div>
+							</div>
+						</section>
+					</div>
+					<div>
+						<div class="hot_title">热话题</div>	
+						<section class="hot_topic">
+						
+						</section>
+					</div>
+					<div>
+						<div class="hot_title">热评论</div>
+						<section class="hot_comment">
+							
+							
+						</section>
+					</div>
+					<div>
+						<div class="hot_title">二维码</div>
+						<section class="wechat">
+							<img src="img/myweixin.png" alt="二维码" />
+						</section>
+					</div>
+				</div><!--e:RightZone-->
+			</div>
+		</div>
+			<!--e：总体内容区 -->
+			<!---------s:脚部------------->
+			<footer>
+				<div id="gotop" onclick="flytotop();" class="totop"><a href="#"><img src="img/fighter2.png"></a></div>
+				<div align="center" class="footer-wrap">
+					<div>
+						<!--兴趣关注-->
+						<h4>欢迎关注：</h4>
+						<ul>
+							<li><a href="#"><i class="icon3 icon3-weibo"></i>官方微博</a></li>
+							<li><a href=""><i class="icon3 icon3-weixin"></i>官方微信</a></li>
+							<li><a href=""><i class="icon3 icon3-qq"></i>客服QQ</a></li>
+							<li><a href=""><i class="icon3 icon3-contact"></i>联系我们</a></li>
+							<li><a href=""><i class="icon3 icon3-tieba"></i>贴吧</a></li>
+							<li><a href=""><i class="icon3 icon3-xingqu"></i>兴趣部落</a></li>
+						</ul>
+					</div>
+					<div>
+						<!--简介-->
+						<p>
+							灵蛇News，读你想读，给你精彩。于大千世界中，阅一事，悟吾身，于混沌中找到自我，释放自我，享受自我.<br> 好的新闻，还原给你生活中方方面面的真相，传递给你以最诲人的新思想。这一切都在这里，这里是灵蛇News。
+						</p>
+					</div>
+					<div>
+						<!--版权声明-->
+						<ul>
+							<li><a href="about.html">关于我们</a>&nbsp;|</li>
+							<li><a href="">招贤纳士</a>&nbsp;|</li>
+							<li><a href="">版权声明</a>&nbsp;|</li>
+							<li><a href="">使用协议</a>&nbsp;|</li>
+							<li><a href="">公司新闻</a>&nbsp;|</li>
+							<li><a href="">举报中心</a></li>
+						</ul>
+						<p> Copyright ©2016 www.wangke.com lnc.ALL Rights Reserved</p>
+						<P><b style="color:dodgerblue;font-weight: 600;">深圳网客科技有限公司</b>版权所有 -14240018-POWER BY YuanFuCong</p>
+					</div>
+				</div>
+			</footer>
+			<!---------e:脚部------------->
+			<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/all.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/share.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
